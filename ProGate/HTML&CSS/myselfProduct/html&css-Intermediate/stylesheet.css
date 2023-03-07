@@ -1,0 +1,194 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;            
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);            
+  background-size: cover;            
+  color: white;            
+  text-align: center;            
+}            
+
+.container {            
+  width: 1170px;            
+  margin: 0 auto;            
+}            
+
+.top-wrapper h1 {            
+  opacity: 0.7;            
+  font-size: 45px;            
+  letter-spacing: 5px;            
+}            
+
+.top-wrapper p {            
+  opacity: 0.7;            
+  margin-bottom: 15px;            
+}            
+
+.signup {            
+  background-color: #239b76;            
+  margin-top: 15px;            
+  margin-bottom: 15px;            
+}            
+
+.facebook {            
+  background-color: #3b5998;            
+  margin-right: 10px;            
+}
+
+.twitter {            
+  background-color: #55acee;            
+}            
+.btn {            
+  padding: 8px 24px;            
+  color: white;            
+  display: inline-block;            
+  opacity: 0.8;            
+  border-radius: 4px;            
+}            
+.btn:hover {            
+  opacity: 1;
+}            
+.fa {            
+  margin-right: 5px;            
+}
+
+header  {
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  width: 1278.5px;
+  z-index: 9999;
+}
+
+.container a {
+  color: white;
+  cursor: pointer;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left img {
+  padding-top: 20px;
+  width: 124px;
+}
+
+.header-right {
+  float: right;
+  padding: 20px 25px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-right :hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.login a {
+  display: block;
+}
+
+
+
+.lesson-wrapper {
+  height: 500px;
+  padding-top: 80px;
+  background-color: #f7f7f7;
+  text-align: center;  
+}
+
+.heading h2 {
+  color: #5f5d60;
+  padding-bottom: 50px;
+}
+
+.lesson {
+  float: left;
+  position: relative;
+  width: 25%;
+}
+
+.lesson-img {
+  position: relative;
+}
+
+.img-text {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;  
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+.btn-wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.welcom-txt h2{
+  font-weight: normal;
+  color: #5f5d60;
+}
+
+.welcom-txt h3 {
+  padding-bottom: 50px;
+}
+
+.btn input{
+  padding: 15px 40px;
+  cursor: pointer;
+  color: white;
+  background-color: #5dca88;
+  border: none;
+  box-shadow:  0px 7px #1a7940;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn input :hover {
+  opacity: 1;
+}
+
+.btn input:active{
+  margin-top: 7px;
+  box-shadow: none;
+}
+
+
+
+.footer-left img {
+  padding-top: 30px;
+  width: 124px;
+}
+
+.footer-left p {
+  font-size: 12px;
+  color: #b3aeb5;
+  padding-bottom: 30px;
+}
